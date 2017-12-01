@@ -1,7 +1,7 @@
 var printer = require("../node-thermal-printer");
 printer.init({
   type: printer.printerTypes.EPSON,  // 'star' or 'epson'
-  interface: '/dev/usb/lp0',         // Linux interface
+  // interface: '/dev/usb/lp0',         // Linux interface
   width: 48,                         // Number of characters in one line (default 48)
   characterSet: 'SLOVENIA',          // Character set default SLOVENIA
   removeSpecialCharacters: false,    // Removes special characters - default: false
